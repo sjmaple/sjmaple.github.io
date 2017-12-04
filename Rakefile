@@ -5,5 +5,5 @@ require 'rake-jekyll'
 # See http://github.com/jirutka/rake-jekyll for more options.
 Rake::Jekyll::GitDeployTask.new(:deploy) do |t|
     t.committer = 'Simon Maple <sjmaple@gmail.com>'
-    t.deploy_branch = gh-pages
+    t.deploy_branch = 'gh-pages'
 end
